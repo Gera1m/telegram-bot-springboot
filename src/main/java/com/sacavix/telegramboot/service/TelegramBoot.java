@@ -22,9 +22,9 @@ public class TelegramBoot extends TelegramLongPollingBot {
         // Se crea un objeto mensaje
         SendMessage message = new SendMessage();
         message.setChatId(chatId);
-        message.setText("¡Hola! Bienvenido a Faridmtics Bot 🤖\n"
+        message.setText("¡Hola! Bienvenido a Gerado Bot 🤖\n"
         		+ "\n"
-        		+ "Estoy aquí para ayudarte :)");
+        		+ "Estoy aquí para cualquier cosa que necesites :)");
 
         try {
             // Se envía el mensaje
@@ -34,14 +34,15 @@ public class TelegramBoot extends TelegramLongPollingBot {
         }
 
     }
-
+ // Se pone el nombre del bot
     @Override
     public String getBotUsername() {
-        return "Faridrmtics_bot";
+        return "Gerardobot";
     }
 
+ // Se pone el token 
     @Override
     public String getBotToken() {
-        return "8438230879:AAHM8IeAo5yUaj_FsPUn5gfgPLtXyEJz6IY";
+        return "8623427173:AAFjMQg8GzHrRg5cXZS7uEEtQ_KFuO16dS0";
     }
 }
